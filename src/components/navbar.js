@@ -1,18 +1,18 @@
 import React from "react";
-import favicon from '../img/favicon.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faTwitter, faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { Link, Route, Routes } from 'react-router-dom';
 
 function Navbar() {
   return (
     <nav class="navbar">
-      <ul class= "navbar-left">
-            <li><xmp class='nav_logo'>░▒█▀▀█░▒█░▒█░▀█▀<br></br>
+      <ul class= "nav_links navbar-left">
+            <xmp class='nav_logo'>░▒█▀▀█░▒█░▒█░▀█▀<br></br>
                     ░▒█▄▄█░▒█░▒█░▒█░<br></br>
-                    ░▒█░░░░░▀▄▄▀░▄█▄</xmp></li>
-            <li><div class='btn' onClick="">Home</div></li>
-            <li><div class='btn' onClick="">Blogs</div></li>
-            <li><div class='btn' onClick="">Contact</div></li>
+                    ░▒█░░░░░▀▄▄▀░▄█▄</xmp>
+            <Link to='/' class='btn' onClick="">HOME</Link>
+            <Link to='/blog1' class='btn' onClick="">BLOGS</Link>
+            <Link to='/' class='btn' onClick="">CONTACT</Link>
       </ul>
       <ul class="navbar-right">
         <FontAwesomeIcon class='faicon' icon={faLinkedin} size="1x" />
