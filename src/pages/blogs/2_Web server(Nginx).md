@@ -1,4 +1,4 @@
-![[Pasted image 20230217115922.png]]
+![[web1.png]]
 It is our server console, and we can start to set up a simple web server.
 
 Install Nginx

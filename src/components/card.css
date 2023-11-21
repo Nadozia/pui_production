@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+}
+
+.container{
+
+    border-top: 5px solid rgba(240, 199, 124, 0.967);
+    border-left: 2px solid rgba(246, 189, 84, 0.967);
+    color: white;
+    font-size: 40px;
+    padding: 10px 0;
+    margin-top: 50px;
+    margin-left: 40%;
+    height: 10vh;
+    line-height: 9vh;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.5s;
+    opacity: 50%;
+}
+
+.container:hover{
+    transform: translateX(-100px);
+    opacity: 70%;
+}
+
+a{
+    width: 100%;
+    height: 100%;
+}
+
+.container:nth-child(1){
+    background-color: rgb(216, 138, 55);
+}
+
+.container:nth-child(2){
+    background-color: rgb(22, 182, 139);
+}
+
+.container:nth-child(3){
+    background-color: rgb(20, 164, 183);
+}

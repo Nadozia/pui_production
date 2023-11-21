@@ -23,6 +23,7 @@ function Home() {
               <br/>
               <br/>
               <p>A place to store my learning logs and other stuff.</p>
+
         </div>
     </main>
   );
