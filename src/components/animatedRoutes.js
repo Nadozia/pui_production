@@ -16,7 +16,8 @@ function AnimatedRoutes(){
                 <Route path="/" element={<Home />}/>
                 <Route path="/blog" element={<Blog />}/>
                 <Route path="/contact" element={<Contact />}/>
-                <Route path="/blog/database" element={<MarkdownRenderer message='hello' path='../6_OpenVpn.md' />}/>
+                <Route path="/blog/database" element={<MarkdownRenderer path='blogs/6_OpenVpn.md' />}/>
+                <Route path="/blog/ssh" element={<MarkdownRenderer path='blogs/ssh.md' />}/>
             </Routes>
         </AnimatePresence>
         

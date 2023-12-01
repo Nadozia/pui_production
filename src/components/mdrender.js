@@ -4,7 +4,7 @@ import './mdrender.css'
 
 const MarkdownRenderer = (props) => {
   const [post, setPost] = useState('');
-  const file = '6_OpenVpn.md'
+  const file = props.path
 
   useEffect(() => {
     import(`./${file}`)

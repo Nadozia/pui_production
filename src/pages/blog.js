@@ -8,8 +8,9 @@ function Blog() {
   return (
     <div>
       {/* <Card className="web_server" data={'Web Server'} target={'webServer'}/> */}
+      <Card className="SSH Basic Usage" data={'SSH Basic Usage'} target={'SSH'}/>
       <Card className="ftp_server" data={'FTP Server'}/>
-      <Card className="database_server" data={'DataBase'} target={'DataBase'} path={'./pages/blogs/1_Create a virtual machine.md'}/>
+      <Card className="database_server" data={'DataBase'} target={'DataBase'}/>
     </div>
     
   )

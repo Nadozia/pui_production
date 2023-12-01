@@ -1,3 +1,9 @@
 code{
-    background-color: aquamarine;
+    width: 40%;
+    background-color: rgb(86, 95, 92);
+    color: rgb(180, 130, 39);
+    font-family: 'VT323', sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+    /* display: block; */
 }
